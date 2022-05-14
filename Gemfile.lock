@@ -79,6 +79,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  arm64-darwin-21
 
 DEPENDENCIES
   activerecord (~> 7.0.0.alpha2)
@@ -94,4 +95,4 @@ DEPENDENCIES
   zeitwerk (~> 2.5.1)
 
 BUNDLED WITH
-   2.2.32
+   2.3.13
