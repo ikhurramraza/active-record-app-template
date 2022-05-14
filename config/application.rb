@@ -24,7 +24,7 @@ module Application
   end
 
   def database_config
-    @database_config ||= YAML.load_file(root.join('config', 'database.yml')).fetch(env.to_s)
+    @database_config ||= YAML.load_file(root.join('config', 'database.yml'), aliases: true).fetch(env.to_s)
   end
 
   private
