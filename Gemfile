@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'activerecord', '~> 7.0.0.alpha2', require: 'active_record'
+gem 'activerecord', '~> 7.0.0', require: 'active_record'
 gem 'pg',           '~> 1.2.3'
 gem 'zeitwerk',     '~> 2.5.1'
 
