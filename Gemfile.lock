@@ -83,7 +83,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activerecord (~> 7.0.0.alpha2)
+  activerecord (~> 7.0.0)
   debug
   pg (~> 1.2.3)
   rake
