@@ -10,7 +10,7 @@ module Tasks
     def run!
       abort('Migration name is missing: `rake generate:migration YourMigration`') if name.blank?
 
-      File.open(path, 'w') { |file| file.write(migration_content) }
+      File.write(path, migration_content)
     end
 
     private
